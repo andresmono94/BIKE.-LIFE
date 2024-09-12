@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(163, 162, 160);
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: #0c0c0c;
+}
+.descrip{
+    text-align: center;
+    font-size: 22px;
+}
+.cascos{
+    position: relative;
+    margin: 5px 1120px 5px 5px;
+}
+.maleteros{
+    position: relative;
+    top: -640px;
+    left: 260px;
+    margin: 5px 1100px 5px 5px;
+}
+.trajes{
+    position: relative;
+    top: -1150px;
+    left: 530px;
+    margin: 5px 1100px 5px 5px;
+}
+.defensas{
+    position: relative;
+    top: -1740px;
+    left: 790px;
+    margin: 5px 1100px 5px 5px;
+}
+.escape{
+    position: relative;
+    top: -2260px;
+    left: 1050px;
+    margin: 5px 1100px 5px 5px;
+}
