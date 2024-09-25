@@ -1,3 +1,4 @@
+
 /* Estilos Generales */
 body {
     font-family: Arial, sans-serif;
@@ -68,3 +69,38 @@ section p {
     transform: scale(1.05);
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
+
+
+.descrip{
+    text-align: center;
+    font-size: 22px;
+}
+.cascos{
+    position: relative;
+    margin: 5px 1120px 5px 5px;
+}
+.maleteros{
+    position: relative;
+    top: -640px;
+    left: 260px;
+    margin: 5px 1100px 5px 5px;
+}
+.trajes{
+    position: relative;
+    top: -1150px;
+    left: 530px;
+    margin: 5px 1100px 5px 5px;
+}
+.defensas{
+    position: relative;
+    top: -1740px;
+    left: 790px;
+    margin: 5px 1100px 5px 5px;
+}
+.escape{
+    position: relative;
+    top: -2260px;
+    left: 1050px;
+    margin: 5px 1100px 5px 5px;
+}
+
