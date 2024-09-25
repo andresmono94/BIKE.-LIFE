@@ -1,0 +1,70 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Sección de descripción */
+.descrip {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.descrip h1 {
+    font-size: 36px;
+    color: #3c74ec;
+}
+
+.descrip p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilos para las secciones de productos */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Títulos de cada sección */
+section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #3c74ec;
+}
+
+/* Estilos de párrafos dentro de cada sección */
+section p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Organización de imágenes en cada sección */
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.imagenes img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}

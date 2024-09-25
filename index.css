@@ -1,0 +1,89 @@
+/* Estilo del título principal */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la navegación */
+nav {
+    font-size: 30px;
+    text-align: center;
+    background-color: #1333c0;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff4b4b;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Fondo de la página */
+body {
+    background-color: rgba(139, 150, 201, 0.8);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Párrafos */
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Encabezado secundario */
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 40px;
+}
+
+/* Sección de imágenes (marcas) */
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px auto;
+    flex-wrap: wrap; /* Adaptable a diferentes tamaños de pantalla */
+    padding: 20px;
+}
+
+/* Imágenes dentro de la sección de marcas */
+.brands img {
+    height: 90px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.brands img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de párrafos */
+p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
