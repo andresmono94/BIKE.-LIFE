@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="accesorios.css">
+    <title>Bike Life - Accesorios</title>
+
+</head>
+<script src="accesorios.js"></script>
+<body>
+
+    <!-- Sección de descripción -->
+    <header>
+        <h1>Accesorios</h1>
+        <p>Descubre nuestra variedad de productos y accesorios para ti y tu motocicleta. Si deseas darle un toque personal y/o lujoso a tu vehículo, estás en el lugar indicado. También contamos con la vestimenta de seguridad apropiada para tus viajes en carretera.</p>
+        <p>Por compras superiores a 300 mil en accesorios o vestimenta, recibes un 15% de descuento.</p>
+    </header>
+
+    <!-- Sección Cascos -->
+    <section>
+        <h2>Cascos</h2>
+        <p>Protege tu vida, recuerda utilizar un buen casco que cumpla con los requisitos de seguridad.</p>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/casco_hjc_-transformed.png" alt="Casco HJC" height="120">
+                <figcaption>Casco HJC</figcaption>
+            </figure>
+            <button onclick="addToCart('Casco HJC', 100)">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/casco_shaft1-transformed.png" alt="Casco Shaft 1" height="140">
+                <figcaption>Casco Shaft 1</figcaption>
+            </figure>
+            <button onclick="addToCart('Casco Shaft 1', 120)">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/casco_shaft2-transformed.png" alt="Casco Shaft 2" height="140">
+                <figcaption>Casco Shaft 2</figcaption>
+            </figure>
+            <button onclick="addToCart('Casco Shaft 2', 130)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Sección Maleteros -->
+    <section>
+        <h2>Maleteros</h2>
+        <p>Las más apropiadas si necesitas espacio para almacenamiento, ideales para viajes y aventuras.</p>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/maletero-tomcat-30-lts-transformed.png" alt="Maletero Tomcat" height="170">
+                <figcaption>Maletero Tomcat</figcaption>
+            </figure>
+            <button onclick="addToCart('Maletero Tomcat', 150)">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/maletero1-transformed.png" alt="Maletero 1" height="170">
+                <figcaption>Maletero 1</figcaption>
+            </figure>
+            <button onclick="addToCart('Maletero 1', 160)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Sección Trajes -->
+    <section>
+        <h2>Trajes</h2>
+        <p>La mejor vestimenta para proteger tu integridad.</p>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/chaqueta_armadur-transformed.png" alt="Chaqueta de Armadura" height="200">
+                <figcaption>Chaqueta de Armadura</figcaption>
+            </figure>
+            <button onclick="addToCart('Chaqueta de Armadura', 200)">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/traje_segur2-transformed.png" alt="Traje de Seguridad" height="200">
+                <figcaption>Traje de Seguridad</figcaption>
+            </figure>
+            <button onclick="addToCart('Traje de Seguridad', 220)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Sección Defensas -->
+    <section>
+        <h2>Defensas</h2>
+        <p>Protege tu motocicleta para que no sufra daños en caso de caídas.</p>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/defensa_slider1-transformed.png" alt="Defensa Slider" height="150">
+                <figcaption>Defensa Slider</figcaption>
+            </figure>
+            <button onclick="addToCart('Defensa Slider', 180)">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/defensa_slider_peque-transformed.png" alt="Defensa Slider Pequeña" height="180">
+                <figcaption>Defensa Slider Pequeña</figcaption>
+            </figure>
+            <button onclick="addToCart('Defensa Slider Pequeña', 190)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Sección Escapes -->
+    <section>
+        <h2>Escapes</h2>
+        <p>Personaliza el sonido y rendimiento de tu motocicleta.</p>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/escape_kinkoley-pXX6rZBpd-transformed.png" alt="Escape Kinkoley" height="150">
+                <figcaption>Escape Kinkoley</figcaption>
+            </figure>
+            <button onclick="addToCart('Escape Kinkoley', 250)">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./imagenes/escape_akrapovich-transformed.png" alt="Escape Akrapovich" height="150">
+                <figcaption>Escape Akrapovich</figcaption>
+            </figure>
+            <button onclick="addToCart('Escape Akrapovich', 300)">Agregar al carrito</button>
+        </div>
+    </section>
+
+    <!-- Carrito de Compras -->
+    <section class="cart">
+        <h2>Carrito de Compras</h2>
+        <div id="cartItems"></div>
+        <p id="totalAmount">Total: $0</p>
+        <button onclick="clearCart()">Vaciar Carrito</button>
+    </section>
+
+</body>
+</html>
+
+
+
