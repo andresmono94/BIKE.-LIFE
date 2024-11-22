@@ -81,6 +81,8 @@ table tr:nth-child(even) {
     height: auto;
     margin-bottom: 20px;
     border-radius: 5px; /* Bordes suaves para las imágenes */
+
+
     opacity: 0; /* Imagen inicialmente oculta */
 
     /* Animación de carga */
@@ -97,6 +99,7 @@ table tr:nth-child(even) {
         opacity: 1;
         transform: scale(1);
     }
+
 }
 
 /* Estilos de encabezados */
@@ -116,3 +119,4 @@ h2 {
 h3 {
     font-size: 1.5em;
 }
+
