@@ -125,13 +125,23 @@
         </div>
     </section>
 
-    <!-- Carrito de Compras -->
-    <section class="cart">
-        <h2>Carrito de Compras</h2>
-        <div id="cartItems"></div>
-        <p id="totalAmount">Total: $0</p>
-        <button onclick="clearCart()">Vaciar Carrito</button>
-    </section>
+   <body>
+    <!-- Botón del carrito en la esquina superior derecha -->
+    <div class="cart-container">
+        <button class="cart-toggle" onclick="toggleCart()">🛒 Carrito</button>
+        
+        <!-- Carrito desplegable -->
+        <section class="cart-dropdown" id="cartDropdown">
+            <h2>Carrito de Compras</h2>
+            <div id="cartItems"></div>
+            <p id="totalAmount">Total: $0</p>
+            <button onclick="clearCart()">Vaciar Carrito</button>
+        </section>
+    </div>
+
+    <!-- Resto del contenido de la página -->
+    ...
+</body>
 
 </body>
 </html>
